@@ -1,0 +1,15 @@
+data is in /hpc/group/vertgenlab/LabDataSets/NameOfFlowCell
+
+
+Cell Ranger tutorial from 10x tutorial
+(https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger)
+
+Cell Ranger Count (load as module on DCC--must be higher than version 5) we used Cell-Ranger/6.0.1
+  use 10x sn-mRNA reference (/hpc/group/vertgenlab/refGenomes/mm10_10x_mRNA_ref (?))
+  
+  make sure to have option --include-introns 
+    (because snRNA-seq)
+    
+  Generates count matrix which is the input to serat.
+  
+
