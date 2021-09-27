@@ -10,6 +10,6 @@ Cell Ranger Count (load as module on DCC--must be higher than version 5) we used
   make sure to have option --include-introns 
     (because snRNA-seq)
     
-  Generates count matrix which is the input to serat.
+  Generates count matrix which is the input to seurat.
   
 
