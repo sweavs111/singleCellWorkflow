@@ -11,5 +11,14 @@ Cell Ranger Count (load as module on DCC--must be higher than version 5) we used
     (because snRNA-seq)
     
   Generates count matrix which is the input to seurat.
+  Also 
   
+ ##Follow seurat vignette pretty much step-for-step 
+  (https://satijalab.org/seurat/articles/pbmc3k_tutorial.html)
+  Seurat is all in R
+  
+  filtered_feature_bc_matrix folder is the feed-in to seurat
+    features.csv
+    barcodes.csv
+    matrix.mtx
 
